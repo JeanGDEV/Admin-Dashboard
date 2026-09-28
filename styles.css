@@ -2,3 +2,36 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+/** HEADER SECTION **/
+
+.header {
+    background: tomato;
+    padding: 5px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.searching-field {
+    display: flex;
+    gap: 10px;
+}
+
+.searching-field > #search {
+    width: 100%;
+}
+
+.user-field {
+    display: flex;
+    align-items: center;
+}
+
+.notf-fi {
+    display: flex;
+    align-items: center;
+}
+
+div > .user-pic {
+    width: 60px;
+    border-radius: 100%;
+}
