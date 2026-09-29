@@ -267,6 +267,7 @@ hr {
 }
 
 .tredings {
+    background: white;
     display: flex;
     flex-direction: column;
     gap: 30px;
