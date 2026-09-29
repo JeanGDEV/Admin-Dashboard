@@ -234,7 +234,7 @@ li > a {
 
 /** SIDEBAR SECTION **/
 
-
+/** ANNOUNCEMENTS **/
 .sidebar {
     grid-area: auto;
     
@@ -256,4 +256,38 @@ li > a {
 hr {
     border: none;
     border-top: 2px solid black;
+}
+
+/** TRENDINGS **/
+
+.title-trend {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.tredings {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.425);
+    padding: 20px;
+}
+
+.treding, .treding-info {
+    display: flex;
+}
+
+.treding {
+    gap: 10px;
+}
+
+.treding-info {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.trending-img {
+    width: 50px;
+    border: 2px solid tomato;
+    border-radius: 100%;
 }
