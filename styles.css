@@ -288,12 +288,21 @@ hr {
 }
 
 .treding {
-    gap: 10px;
+    gap: 20px;
 }
 
 .treding-info {
     flex-direction: column;
     justify-content: center;
+}
+
+.treding-info > p:first-child {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.treding-info > p:last-child {
+    color: rgb(65, 65, 65);
 }
 
 .trending-img {
