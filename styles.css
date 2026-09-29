@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: Roboto;
 }
 
 /** CONTAINER SECTION **/
@@ -11,10 +12,10 @@
     height: 100vh;
     display: grid;
     grid-template-areas: 
-    "nav nav header header header header"
-    "nav nav main main main sidebar"
-    "nav nav main main main sidebar"
-    "nav nav main main main sidebar";
+    "nav nav header header header header header"
+    "nav nav main main main main sidebar"
+    "nav nav main main main main sidebar"
+    "nav nav main main main main sidebar";
 }
 
 /** HEADER SECTION **/
@@ -37,7 +38,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-grow: 5;
+    flex-grow: 6;
     gap: 40px;
 }
 
@@ -135,8 +136,57 @@
 
 .nav {
     grid-area: nav;
-    background: blue;
+    background: rgb(31, 145, 190);
+    color: white;
+    font-weight: bold;
+    padding: 10px 60px 10px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
+
+.list-item-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.list-nav {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+#main-nav-icon {
+    width: 60px;
+}
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.title-nav >.nav-icon {
+    width: 50px;
+}
+
+.list-item-nav > .nav-icon {
+    width: 20px;
+}
+
+.list-item-nav > a {
+    font-size: 1.2rem;
+}
+
 
 /** MAIN SECTION **/
 
