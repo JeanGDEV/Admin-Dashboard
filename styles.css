@@ -94,6 +94,10 @@
     font-size: 1.3rem;
 }
 
+.notf-fi > .username {
+    font-size: 1.3rem;
+}
+
 .search-button, .notification-button {
     border: none;
     background: none;
