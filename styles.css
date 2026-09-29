@@ -261,6 +261,10 @@ hr {
 
 /** TRENDINGS **/
 
+.tredings, .announcements {
+    border-radius: 8px;
+}
+
 .title-trend {
     margin-top: 60px;
     margin-bottom: 10px;
