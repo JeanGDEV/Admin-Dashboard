@@ -234,7 +234,26 @@ li > a {
 
 /** SIDEBAR SECTION **/
 
+
 .sidebar {
     grid-area: auto;
-    background: tomato;
+    
+}
+
+.title-announce {
+    margin-bottom: 10px;
+}
+
+.announcements {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background: white;
+    padding: 30px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.425);
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
 }
